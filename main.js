@@ -8,9 +8,9 @@ let url = 'https://crossorigin.me/http://www.recipepuppy.com/api/?q='
 go.addEventListener('click', () => {
   capture = searchResults.value
   console.log(capture)
-  url += capture
+  let searchurl = url + capture
 
-  fetch(url).then(response => response.json()).then(data => {
+  fetch(searchurl).then(response => response.json()).then(data => {
     console.log(url)
     console.log(data)
     for (var i = 0; i < data.results.length; i++) {
