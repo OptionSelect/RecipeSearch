@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(181, 106, 91);
+  background-color: rgb(196, 117, 101);
 }
 
 .wrapper {
@@ -29,21 +29,24 @@ li {
 
 h3 {
   padding: 0;
-  color: rgb(232, 159, 197);
+  color: rgb(173, 0, 172);
   font-weight: bold;
   margin: 10px;
   width: 200px;
   text-align: center;
   justify-content: center;
   align-items: center;
-  text-shadow: 2px 2px #2e2e2e;
+  text-shadow: 1px 1px #2e2e2e;
 }
 
 a {
-  color: rgb(255, 201, 229);
+  color: rgb(173, 0, 172);
   padding: 0;
   margin: 10px;
   width: 100px;
   position: relative;
   right: -2em;
+  font-weight: bold;
+  text-shadow: 1px 1px #2e2e2e;
+  text-decoration: none;
 }
